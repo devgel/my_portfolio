@@ -101,7 +101,7 @@ body {
   font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(../img/try.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -253,9 +253,13 @@ main {
 
 @media screen and (max-width: 768px) {
   main {
+    padding: 2rem;
     align-items: center;
     text-align: center; }
+    main #home h1 {
+      margin-top: 10vh; }
     main .lg-heading {
+      margin-top: 1rem;
       line-height: 1;
       margin-bottom: 1rem;
       padding-top: 4rem;
