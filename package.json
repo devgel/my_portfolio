@@ -4,11 +4,14 @@
   "description": "Responsive portfolio wesite",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy" : "gh-pages -d dist"
   },
   "author": "Argel Policarpio",
   "license": "MIT",
+  "homepage": "https://devgel.github.io/mywebsite",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.4"
   }
 }
